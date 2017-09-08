@@ -1,86 +1,90 @@
-* Style Default */
+
 body {
-  font-family: 'Slabo 27px', serif;
+	background-image: url(ABC.jpg);
+	background-size: 100%;
 }
+header {
+  background-image: url(images.jpeg);
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+ul {
+  margin: 30px auto;
+  padding: 0 18px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 200px;
+}
+
+
+div.container {
+	align-items: center;
+	align-self: center;
+	background: url('winny.jpg') center center;
+	border-radius: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 800px;
+	justify-content: center;
+	width: 800px;
+}
+
+
 
 h1 {
-  color: maroon;
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
-  padding-bottom: 10px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 46px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
 }
 
-.separator {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+a.btn {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(108,0,153,0.65) 100%);
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
 }
 
-/* Style Untuk Soal 1, 2, dan 3. Gunakan Dengan Sesuai! */
-
-.box-100 {
-  width: 100px;
+a.btn:hover {
+	box-shadow: 0px 4px 4px rgba(34,62,66,.5);
+	-webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease; 
+}
+h3{
+	color: copper;
+	font-family:'Playfair Display', serif;
+	font-size: 32px;
+	font-weight: 900;
+	line-height: 46px;
+ 	 margin: 0 0 60px 0;
+  	text-align: center;
+  	text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  	width: 45%;}
+footer {
+  background-image: url(pantai.jpg);
+  text-align: center;
   height: 100px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
-}
 
-.box-200 {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
-}
-
-#maroon-box {
-  color: red;
-  background: #96281B;
-}
-
-#dark-blue-box {
-  color: #FFFFFF;
-  background: #4B77BE;
-}
-
-#salem-box {
-  color: #FFFFFF;
-  background: #1E824C;
-}
-
-.red-background {
-  color: #FFFFFF;
-  background: #C0392B;
-}
-
-.blue-background {
-  color: #FFFFFF;
-  background: #446CB3;
-}
-
-.green-background {
-  color: #FFFFFF;
-  background: #26A65B;
-}
-
-.box-list div {
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px;
-  padding: 20px;
-  font-size: 15pt;
-  text-align: center;
-  background: #353535;
-  color: #FFFFFF;
-}
-
-#gold-box {
-  border-radius: 20px;
-  color: #353535;
-  background: #F9BF3B;
 }
