@@ -1,10 +1,10 @@
 
 body {
-	background-image: url(ABC.jpg);
+	background-image: url(LABEL.jpg);
 	background-size: 100%;
 }
 header {
-  background-image: url(images.jpeg);
+  background-image: url(tirai.jpg);
   border-bottom: 1px solid #466995;
   position: fixed;
   width: 100%;
@@ -30,7 +30,7 @@ li {
 div.container {
 	align-items: center;
 	align-self: center;
-	background: url('winny.jpg') center center;
+	background: url('BEE.png') center center;
 	border-radius: 100%;
 	display: flex;
 	flex-direction: column;
